@@ -15,11 +15,12 @@ release = '1.0.0'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = ["sphinx_rtd_theme",
-              "sphinx.ext.autodoc",      # 자동화된 문서화 기능
-              "sphinx.ext.napoleon",     # Google 스타일 docstring 지원
-              "sphinx.ext.viewcode",     # 소스 코드 보기 링크 추가
+            #   "sphinx.ext.autodoc",      # 자동화된 문서화 기능
+            #   "sphinx.ext.napoleon",     # Google 스타일 docstring 지원
+            #   "sphinx.ext.viewcode",     # 소스 코드 보기 링크 추가
               # "sphinxcontrib.youtube",
-              "sphinx_tabs.tabs"]
+            #   "sphinx_tabs.tabs"
+              ]
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
@@ -32,7 +33,6 @@ language = 'en'
 
 html_theme = 'sphinx_rtd_theme'
 html_theme_path = ["_themes", ]
-
 html_static_path = ['_static']
 
 html_logo = "_static/robot.png"
