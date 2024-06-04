@@ -52,10 +52,7 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">ISAAC SIM</a></li>
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Quick Start Installation</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Development</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#code-structure">Code structure</a></li>
-</ul>
-</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Development</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">MR-Sim TOPICS:</span></p>
 <ul>
@@ -97,55 +94,7 @@
              
   <section id="development">
 <h1>Development<a class="headerlink" href="#development" title="Link to this heading"></a></h1>
-<p>We developed this extension using <a class="reference external" href="https://code.visualstudio.com/">Visual Studio Code</a>, the
-recommended tool on NVIDIA’s Omniverse official documentation. To setup Visual Studio Code with hot-reloading features, follow
-the additional documentation pages:</p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://docs.omniverse.nvidia.com/app_isaacsim/app_isaacsim/manual_standalone_python.html#isaac-sim-python-vscode">Isaac Sim VSCode support</a></p></li>
-<li><p><a class="reference external" href="https://docs.omniverse.nvidia.com/app_isaacsim/app_isaacsim/tutorial_advanced_python_debugging.html">Debugging with VSCode</a></p></li>
-</ul>
-<p>To enable a better developer experience when contributing or modifying this extension, and have access to features such as
-autocomplete, we recommend linking the Pegasus Simulator repository to the current installation of <code class="docutils literal notranslate"><span class="pre">ISAACSIM</span></code> . For that, please
-run the following script provided with the framework:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>./link_app.sh<span class="w"> </span>--path<span class="w"> </span><span class="nv">$ISAACSIM_PATH</span>
-</pre></div>
-</div>
-<p>This script will create a symbolic link to <code class="docutils literal notranslate"><span class="pre">ISAACSIM</span></code> inside the repository. After this step, you can also launch the
-<code class="docutils literal notranslate"><span class="pre">ISAACSIM</span></code> with the extension enabled (without using the GUI presented in Section , by running:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>./app/isaac-sim.sh<span class="w"> </span>--ext-folder<span class="w"> </span>extensions<span class="w"> </span>--enable<span class="w"> </span>pegasus.simulator
-</pre></div>
-</div>
-<section id="code-structure">
-<h2>Code structure<a class="headerlink" href="#code-structure" title="Link to this heading"></a></h2>
-<p>This simulation framework is strucuture according to the following tree:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>PegasusSimulator:
-├──<span class="w"> </span>.vscode
-├──<span class="w"> </span>docs
-├──<span class="w"> </span>examples
-├──<span class="w"> </span>tools
-├──<span class="w"> </span>extensions
-│<span class="w">   </span>├──<span class="w"> </span>pegasus.simulator
-│<span class="w">   </span>│<span class="w">   </span>├──<span class="w"> </span>config
-│<span class="w">   </span>│<span class="w">   </span>├──<span class="w"> </span>data
-│<span class="w">   </span>│<span class="w">   </span>├──<span class="w"> </span>docs
-│<span class="w">   </span>│<span class="w">   </span>├──<span class="w"> </span>setup.py
-│<span class="w">   </span>│<span class="w">   </span>├──<span class="w"> </span>pegasus.simulator
-│<span class="w">   </span>│<span class="w">   </span>│<span class="w">   </span>│<span class="w">   </span>├──<span class="w"> </span>__init__.py
-│<span class="w">   </span>│<span class="w">   </span>│<span class="w">   </span>│<span class="w">   </span>├──<span class="w"> </span>params.py
-│<span class="w">   </span>│<span class="w">   </span>│<span class="w">   </span>│<span class="w">   </span>├──<span class="w"> </span>extension.py
-│<span class="w">   </span>│<span class="w">   </span>│<span class="w">   </span>│<span class="w">   </span>├──<span class="w"> </span>assets
-│<span class="w">   </span>│<span class="w">   </span>│<span class="w">   </span>│<span class="w">   </span>├──<span class="w"> </span>logic
-│<span class="w">   </span>│<span class="w">   </span>│<span class="w">   </span>│<span class="w">   </span>├──<span class="w"> </span>ui
-</pre></div>
-</div>
-<p>The extensions directory contains the source code for the PegasusSimulator API and interactive GUI while the
-examples directory contains the a set of python scripts to launch standalone applications and pre-programed simulations.</p>
-<p>As explained in NVIDIA’s documentation, extensions are the standard way of developing on top of Isaac Sim and other Omniverse
-tools. The core of our extension is developed in the <code class="docutils literal notranslate"><span class="pre">logic</span></code> and the <code class="docutils literal notranslate"><span class="pre">ui</span></code> modules. The <code class="docutils literal notranslate"><span class="pre">logic</span></code> API is exposed to the users
-and is used both when operating the Pegasus Simulator in GUI widget/extension mode and via standalone python applications.
-The <code class="docutils literal notranslate"><span class="pre">ui</span></code> API is <strong>not exposed/documented</strong> as it is basically defines the widget to call functionalities provided by
-the <code class="docutils literal notranslate"><span class="pre">logic</span></code> module.</p>
-</section>
+<p>To be continue…</p>
 </section>
 
 
