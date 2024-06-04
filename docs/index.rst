@@ -31,9 +31,12 @@ The **Mobile Robot Simulator** is an open-source framework, started by Ji Sue Le
    - `Dong Beom Kim <https://github.com/KDB0814>`__
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 3
+   :caption: Getting Started:
 
+   source/setup/introduction
+   source/setup/installation
+   source/setup/developer
 
 
 Indices and tables
