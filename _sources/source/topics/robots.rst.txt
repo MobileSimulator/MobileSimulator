@@ -29,6 +29,8 @@ Specifications
 - **Track Width**: 420mm (16.5 in)
 - **Wheel Size**: 330mm (13 in)
 
+--------
+
 QCar
 ~~~~
 
@@ -53,6 +55,7 @@ Specifications
 - **Tire Diameter**: 0.066m
 - **Track Width**: 0.170m
 
+--------
 
 Franka Research 3
 ~~~~~~~~~~~~~~~~~
@@ -77,6 +80,8 @@ Specifications
     - A6: 25/265 deg
     - A7: -175/175 deg
 - **Weight**: ~ 17.8 kg
+
+--------
 
 Husky + Franka Research 3
 ~~~~~~~~~~~~~~~~~~~~~~~~~

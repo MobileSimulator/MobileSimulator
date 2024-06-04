@@ -14,6 +14,8 @@ ISAAC SIM
 
 Isaac Sim is a software platform built from the ground up to support the increasingly roboticized and automated world. The goal is to make it as easy as possible for you to design, tune, train, and deploy autonomous control agents for real, physical robots.
 
+----------
+
 System Architecture
 ~~~~~~~~~~~~~~~~~~~
 
@@ -25,6 +27,7 @@ The purpose of Isaac Sim is to support the creation of new robotics tools and em
     :alt: Isaac Sim
     :class: custom-image
 
+----------
 
 Development Workflows
 ~~~~~~~~~~~~~~~~~~~~~
