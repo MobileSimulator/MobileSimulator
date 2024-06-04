@@ -7,7 +7,21 @@ The Mobile Sim team is excited to welcome contributions from anyone interested i
 
 Take a peek and dive right in!
 
+- :ref:`Report bugs`
+- :ref:`Request features`
+- :ref:`Code contributions`
+    - Learn about Unreal Engine
+    - Before getting started
+    - Coding standard
+    - Submission
+    - Checklist
+- Art contributions
+- :ref:`Docs contributions`
+
+
 ---------------
+
+.. _report_bugs:
 
 Report bugs
 -----------
@@ -20,6 +34,8 @@ Issues can be reported in the issue section on GitHub. Before reporting a new bu
 
 ---------------
 
+.. _request_features:
+
 Request features
 ----------------
 
@@ -27,9 +43,18 @@ Ideas for new features are also a great way to contribute. Any suggestion that c
 
 ---------------
 
+.. _code_contributions:
 
 Code contributions
 ------------------
 Before starting hands-on on coding, please check out the issue board to check what is the team already working on, to avoid overlapping. In case of doubt or to discuss how to proceed, please contact one of us (or send an email to mobilesimto@gmail.com).
 
 In order to start working, fork the Mobile Sim repository, and clone said fork in your computer. Remember to keep your fork in sync with the original repository.
+
+
+.. _docs_contributions:
+
+Docs contributions
+------------------
+
+To be continue...

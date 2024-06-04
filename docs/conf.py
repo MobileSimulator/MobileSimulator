@@ -53,6 +53,58 @@ templates_path = ['_templates']
 suppress_warnings = ["myst.header", "autosectionlabel.*"]
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'README.md']
 
+# put type hints inside the description instead of the signature (easier to read)
+autodoc_typehints = "description"
+autodoc_typehints_description_target = "documented"
+# document class *and* __init__ methods
+autoclass_content = "class"  #
+# separate class docstring from __init__ docstring
+autodoc_class_signature = "separated"
+# sort members by source order
+autodoc_member_order = "groupwise"
+# default autodoc settings
+autodoc_default_options = {
+    "autosummary": True,
+}
+
+# Generate documentation for __special__ methods
+napoleon_include_special_with_doc = True
+
+# Mock out modules that are not available on RTD
+autodoc_mock_imports = [
+    "np",
+    "torch",
+    "numpy",
+    "scipy",
+    "carb",
+    "pxr",
+    "omni",
+    "omni.kit",
+    "omni.usd",
+    "omni.isaac.core.utils.nucleus",
+    "omni.client",
+    "pxr.PhysxSchema",
+    "pxr.PhysicsSchemaTools",
+    "omni.replicator",
+    "omni.isaac.core",
+    "omni.isaac.kit",
+    "omni.isaac.cloner",
+    "gym",
+    "stable_baselines3",
+    "rsl_rl",
+    "rl_games",
+    "ray",
+    "h5py",
+    "hid",
+    "prettytable",
+    "pyyaml",
+    "pymavlink",
+    "rclpy",
+    "std_msgs",
+    "sensor_msgs",
+    "geometry_msgs"
+]
+
 # -- Options for EPUB output
 epub_show_urls = "footnote"
 
