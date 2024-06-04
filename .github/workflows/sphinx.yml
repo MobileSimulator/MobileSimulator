@@ -7,16 +7,36 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
     - name: Build HTML
       uses: ammaraskar/sphinx-action@0.4
+
+    - name: Verify file paths
+      run: |
+        find docs/_build/html/ -type f | grep _static/js/custom.js
+    
     - name: Upload artifacts
       uses: actions/upload-artifact@v3
       with:
         name: html-docs
         path: docs/_build/html/
+
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       if: github.ref == 'refs/heads/main'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: docs/_build/html
+
+    env:
+      ACTIONS_STEP_DEBUG: true
