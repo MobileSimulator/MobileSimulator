@@ -3,9 +3,9 @@
 Coding standard
 ###############
 
-- :ref:`**General** <general_section>`
-- Python
-- ROS (Robot Operating System)
+- :ref:`General <general_section>`
+- :ref:`Python <python>`
+- :ref:`ROS <ros>` (Robot Operating System) 1
 
 ----------
 
@@ -17,6 +17,8 @@ General
 - Use spaces, not tables
 - Avoid adding trailing whitespace as it creates noise in the diffs.
 
+.. _python:
+
 Python
 ------
 
@@ -24,6 +26,8 @@ Python
 - All code must be compatible with Python 2.7 and 3.7.
 - `Pylint <https://www.pylint.org/>`__ should not give any error or warning (few exceptions apply with external classes like :code:`numpy` and :code:`pygame`, see our :code:`.pylintrc`).
 - Python code follows `PEP8 style guide <https://peps.python.org/pep-0008/>`__ (use :code:`autopep8` whenever possible).
+
+.. _ros:
 
 ROS
 ---
