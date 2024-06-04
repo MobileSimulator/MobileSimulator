@@ -61,6 +61,14 @@ language = 'en'
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
+html_css_files = [
+    'css/custom.css',
+]
+
+html_js_files = [
+    'js/custom.js',
+]
+
 html_theme = 'sphinx_rtd_theme'
 html_theme_path = ["_themes", ]
 html_static_path = ['_static']
