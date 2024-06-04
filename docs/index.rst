@@ -38,6 +38,20 @@ The **Mobile Robot Simulator** is an open-source framework, started by Ji Sue Le
    source/setup/installation
    source/setup/developer
 
+.. toctree::
+   :maxdepth: 3
+   :caption: MR-Sim TOPICS:
+
+   source/topics/robots
+   source/topics/environments
+   source/topics/sensors
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Guidlines:
+
+   source/references/contributing
+
 
 Indices and tables
 ==================
