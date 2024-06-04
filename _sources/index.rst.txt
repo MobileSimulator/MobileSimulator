@@ -53,6 +53,7 @@ The **Mobile Robot Simulator** is an open-source framework, started by Ji Sue Le
    source/references/contributing
    source/references/changelog
    source/references/standard
+   source/references/license
 
 Indices and tables
 ==================

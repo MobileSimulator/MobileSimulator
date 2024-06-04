@@ -1,11 +1,11 @@
 License
 =======
 
-Mobile Simulator License
+MobileSimulator License
 ------------------------
 
-| The Mobile Simulator is an open-source framework that follows a `BSD-3 Clause License <https://opensource.org/licenses/BSD-3-Clause/>`__. 
-| **Author and lead developer:** Marcelo Jacinto (marcelo.jacinto@tecnico.ulisboa.pt)
+| The MobileSimulator is an open-source framework that follows a `BSD-3 Clause License <https://opensource.org/licenses/BSD-3-Clause/>`__. 
+| **Author and lead developer:** Ji Sue Lee (mobiesimto@gmail.com)
 
 .. code-block:: text 
 
