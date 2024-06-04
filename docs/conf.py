@@ -19,7 +19,7 @@ extensions = ["sphinx_rtd_theme",
             #   "sphinx.ext.napoleon",     # Google 스타일 docstring 지원
             #   "sphinx.ext.viewcode",     # 소스 코드 보기 링크 추가
               # "sphinxcontrib.youtube",
-            #   "sphinx_tabs.tabs"
+              "sphinx_tabs.tabs"
               ]
 
 templates_path = ['_templates']
