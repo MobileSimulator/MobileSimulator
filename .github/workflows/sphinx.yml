@@ -23,7 +23,7 @@ jobs:
 
     - name: Verify file paths
       run: |
-        find docs/_build/html/ -type f | grep _static/js/custom.js
+        find docs/_static/js/ -type f | grep custom.js
     
     - name: Upload artifacts
       uses: actions/upload-artifact@v3
