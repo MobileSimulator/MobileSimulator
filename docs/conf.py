@@ -25,7 +25,6 @@ extensions = ["sphinx_rtd_theme",
               "sphinx.ext.doctest",
               "sphinx.ext.duration",
               "sphinx.ext.viewcode",     # 소스 코드 보기 링크 추가
-              "sphinxcontrib.youtube",
               "sphinxcontrib.bibtex",
               "sphinx_tabs.tabs"
               "myst_parser",              
@@ -55,7 +54,6 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'README.md']
 
 # -- Options for EPUB output
 epub_show_urls = "footnote"
-
 
 # 언어 설정
 language = 'en'
