@@ -26,7 +26,7 @@ extensions = ["sphinx_rtd_theme",
               "sphinx.ext.duration",
               "sphinx.ext.viewcode",     # 소스 코드 보기 링크 추가
             #   "sphinxcontrib.bibtex",
-              "sphinx_tabs.tabs"
+            #   "sphinx_tabs.tabs"
               "myst_parser",              
               "autodocsumm",
               ]
