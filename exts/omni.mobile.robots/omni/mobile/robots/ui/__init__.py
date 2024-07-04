@@ -1,1 +1,0 @@
-from .ui_window import WidgetWindow
