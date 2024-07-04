@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="Style_Shaded" transform="translate(2872 -2360)">
+    <rect id="BaseIcon" width="18" height="18" transform="translate(-2872 2360)" fill="none"/>
+    <g id="Mesh" transform="translate(-2868.719 2362.789)">
+      <path id="Path_2199" data-name="Path 2199" d="M0,0,5.836,2.788V9.72L0,6.932Z" transform="translate(0 2.799)" fill="#9c3b3b"/>
+      <path id="Path_2200" data-name="Path 2200" d="M5.836,0,0,2.788V9.72L5.836,6.932Z" transform="translate(5.836 2.799)" fill="#3989ac"/>
+      <path id="Path_2201" data-name="Path 2201" d="M-9.467,10.437l-5.836,2.8,5.836,2.788,5.837-2.788Z" transform="translate(15.304 -10.437)" fill="#57af4e"/>
+    </g>
+  </g>
+</svg>
